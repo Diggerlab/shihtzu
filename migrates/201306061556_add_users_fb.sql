@@ -1,0 +1,1 @@
+alter table fact_active_users add column fb_connected_users integer default 0;

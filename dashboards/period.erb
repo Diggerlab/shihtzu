@@ -1,0 +1,16 @@
+<% content_for(:title) { "My period dashboard" } %>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="weekly_new_user" data-view="Graph" data-title="New Users" data-text="This is your shiny new dashboard." data-moreinfo=""></div>
+    </li>
+
+    <li data-row="2" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="weekly_login_user" data-view="Graph" data-title="Active Users" data-min="0"></div>
+    </li>
+
+    <li data-row="3" data-col="1" data-sizex="2" data-sizey="2">
+      <div data-id="weekly_iap" data-view="Graph" data-unordered="true" data-title="IAP Sales" data-prefix="$"></div>
+    </li>
+  </ul>
+</div>
